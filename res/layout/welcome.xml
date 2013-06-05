@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/layout_login"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView
+    android:id = "@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:src="@drawable/title"
+    android:gravity="center_horizontal">
+    </ImageView>
+<Button
+    android:text="开始游戏"
+    android:id="@+id/login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </Button>
+<Button
+    android:text="游戏规则"
+    android:id="@+id/rules"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </Button>
+<Button
+    android:text="退出游戏"
+    android:id="@+id/exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </Button>
+    </LinearLayout>
+
+

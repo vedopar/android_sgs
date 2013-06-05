@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background_4" >
+<TextView 
+android:id="@+id/deadTime"
+android:gravity="right"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+/>
+<TextView 
+android:id="@+id/aiChoice"
+android:gravity="right"
+android:autoText="false"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+/>
+ <Chronometer
+ android:id="@+id/chronometer"  
+ android:layout_width="wrap_content"
+android:layout_height="0px"  
+/>    
+<ListView
+android:id="@android:id/list"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:drawSelectorOnTop="false"
+/>
+</LinearLayout>
