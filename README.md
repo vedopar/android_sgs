@@ -7,7 +7,10 @@ Date: Spring 2011 SJTU<br/><br/>
 Project  Info:<br/>
 Final project of course-Software Engineering. The project is an<br/>
 Android mobile game. The game is similar to the popular card game<br/>
-San Guo Sha.<br/><br/>
+San Guo Sha except that the game module is human player vs computer<br/>
+AI player.
+
+<br/><br/>
 
 Android API Level:8<br/>
 <br/>
